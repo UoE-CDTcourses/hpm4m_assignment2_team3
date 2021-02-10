@@ -1,0 +1,17 @@
+#!/bin/bash
+
+
+## Load the required modules
+module load mpt
+module load intel-compilers-19
+
+## compile
+
+
+## compile with MPI:
+mpicxx amair_week4_ws3_parallel.cpp  -o amair_week4_ws3_parallel.exe
+
+## remove object files if there is any!:
+# rm *.mod
+# rm *.o
+
