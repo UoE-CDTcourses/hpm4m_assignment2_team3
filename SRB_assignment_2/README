@@ -1,0 +1,5 @@
+Here we provide the serial code (serial_heat.cpp) which is largely the same as the code that Rene Lohmann provided, the parallel code (para_heat.cpp), plotting script (plotting.py) used to obtain the figures in the report, compilation script (compile_now) for use on Cirrus, and the submission script (run_job.slurm) for use on Cirrus.
+
+Note that to use the plotting script as written the output of the parallel code should be placed into a file called para_heat.out, while the serial output should be in serial_heat.out. Both of these output files should be placed within the same directory as the plotting.py script.
+
+You must also fill in the correct submission directory in the run_job.slurm script, ensure that the number of processes assigned obeys the relation outlined in the workshop document.
